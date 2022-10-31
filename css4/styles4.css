@@ -1,0 +1,453 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: yellow;
+}
+
+header {
+	background: rgba(0,0,0,0.6)  url(../img5/mountain.jpg);
+	height: 100vh;
+	background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.header {
+	font-family: 'century gothic' ;
+	color: white;
+	padding-left: 45px;
+	padding-top: 25px;
+	float: left;
+}
+
+.head a{
+   text-decoration: none;
+   color: white;
+   font-family: 'century gothic';
+}
+
+.head li{
+    display: inline-block;
+	margin-top: 20px;
+	padding: 10px 20px;
+}
+
+.head ul{
+	text-align: right;
+	margin-right: 50px;
+}
+
+.head5 {
+    border-radius: 33px;
+    border: 2px solid white;
+}
+
+.head5:hover {
+	background-color: rgba(0,0,0,0.6)
+}
+
+.tag {
+    text-align: center;
+    color: white;
+	margin-top: 230px;
+	font-size: 36px;
+	font-family: arial;
+    position: relative;
+}
+
+#section li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.template{
+	margin-left: 57px;
+	margin-top: 80px;
+	font-family: arial;
+	font-size: 16px;
+}
+
+.line{
+	color: red;
+}
+
+.code{
+	text-align: left;
+    color: black;
+    padding-top: 10px;
+    margin-left: 63px;
+    font-size: 13px;
+    font-family: arial;
+}
+
+.base{
+	text-align: left;
+	color: rgb(128,128,128);
+	font-family: 'century gothic';
+	margin-left: 32px;
+	margin-top: 10px;
+	font-size: 15px;
+}
+
+.icon ul{
+    display: inline-block;
+    width: 400px;
+}
+
+.icon {
+    padding-top: 20px;
+    position: absolute;
+}
+
+.icon img{
+	border-radius: 10px;
+}
+
+.img-container{
+	margin-bottom: 600px;
+}
+
+.snow{
+	margin-left: 60px;  
+	text-align: left;
+}
+
+.snow2{
+	text-align: left;
+    position: relative;
+	right: 26px;
+}
+
+.snow3{
+	position: relative;
+	right: 110px; 
+}
+
+.snow4{
+	position: relative;
+	left: 1020px; 
+	bottom: 502px;
+}
+
+.code2{
+	text-align: center;
+    color: black;
+	padding-top: 80px;
+	padding-left: 20px;
+	font-size: 20px;
+	font-family: arial;
+}
+
+.line2 {
+ color: red;
+ text-align: center;
+}
+
+.bucket{
+	margin-top: 60px;
+}
+
+.ours {
+	text-align: center;
+	color: rgb(128,128,128);
+	font-family: 'century gothic';
+	margin-top: 40px;
+	margin-left: 50px;
+	font-size: 18px;
+	line-height: 25px;
+	float: left;
+}
+ 
+.image {
+	position: absolute;
+ }
+
+.image img{
+	border-radius: 100px;
+	position: relative;
+	top: 230px;
+	left: 100px;
+	width: 100px;
+	border-radius: 50px;
+}
+
+.image h3{
+   padding-left: 200px;
+   padding-top: 90px;
+   font-family: arial;
+   font-size: 23px;
+   position: relative;
+   top: 50px;
+   left: 15px;
+}
+
+.image h5{
+	padding-left: 200px;
+	color: rgb(128,128,128);
+    font-family: 'century gothic';
+	font-size: 15px;
+    position: relative;
+	top: 50px;
+	left: 15px;
+}
+
+.motto{
+	position: absolute;
+}
+
+.motto1{
+	position: relative;
+	
+}
+
+.theme {
+    text-align: left;
+	width: 250px;
+	height: 250px;
+	padding-left: 5px;
+	border:solid 2px black;
+	position: absolute;
+	top: 47px;
+	left: 550px;
+	z-index: 4px;
+}
+.theme2 {
+	font-family: tahoma;
+	font-size: 15px;
+	position: relative;
+	top: 90px;
+	left: 650px;
+}
+.theme3 {
+	text-align: center;
+	font-family: 'century gothic';
+	font-size: 15px;
+	position: relative;
+	top: 110px;
+	left: 580px;
+}
+.theme4 {
+	font-size: 45px;
+	color: grey;
+	position: absolute;
+	top: 218px;
+	left: 667px;
+}
+
+.more{
+	position: absolute;
+}
+
+.more1 {
+	text-align: center;
+	color: rgb(128,128,128);
+	font-family: 'century gothic';
+	margin-left: 30px;
+	font-size: 18px;
+	line-height: 25px;
+	float: left;
+	position: relative;
+	top: 40px;
+	left: 800px;
+}
+
+.view {
+	position: absolute;
+}
+
+ .view img{
+	border-radius: 100px;
+	position: relative;
+	top: 230px;
+	left: 900px;
+	width: 100px;
+	border-radius: 50px;
+}
+
+.view h3{
+   padding-left: 200px;
+   padding-top: 90px;
+   font-family: arial;
+   font-size: 23px;
+   position: relative;
+   top: 47px;
+   left: 820px;
+}
+
+.view h5{
+	padding-left: 200px;
+	color: rgb(128,128,128);
+    font-family: 'century gothic';
+	font-size: 15px;
+    position: relative;
+	top: 47px;
+	left: 820px;
+}
+
+.middle {
+	position: absolute;
+}
+
+.middle1 img{
+	border-radius: 150px;
+	position: relative;
+	top: 10px;
+	left: 180px;
+	width: 120px;
+}
+	
+.middle2 img{
+	border-radius: 150px;
+	position: relative;
+	left: 330px;
+	bottom: 130px;
+	width: 107px;
+}
+
+.midle {
+	position: absolute;
+}
+
+.midle1 img{
+	border-radius: 150px;
+	position: relative;
+	top: 160px;
+	left: 120px;
+	width: 112px;
+}
+
+.midle3 img{
+	border-radius: 150px;
+	position: relative;
+	bottom: 138px;
+	left: 260px;
+	width: 112px;
+}
+
+.midle2 img{
+	border-radius: 150px;
+	position: relative;
+	top: 20px;
+	left: 400px;
+	width: 110px;
+}
+
+.back{
+	position: absolute;
+}
+
+.background{
+	margin-top: 210px;
+	width: 1347px;
+	height: 480px;
+	background-color:  rgb(239, 241, 241);
+	position: relative;
+	top: 450px;
+	z-index: 4px;
+}
+
+.container{
+	position: absolute;
+}
+
+.container1{
+	position: relative;
+	top: 46px;
+}
+
+.tagline{
+	position: absolute;
+}
+
+.tagline1 {
+	position: relative;
+	text-align: left;
+	color: black;
+	top: 110px;
+	left: 600px;
+	font-size: 45px;
+	font-family: arial;
+}
+  
+  .line3 {
+	color: red;
+	position: relative;
+	bottom: 38px;
+	left: 15px;
+}
+
+.footer{
+	margin-top: 450px;
+	background-color: #333;
+}
+  
+  .lion {
+	  text-align: left;
+	  color: rgb(219, 213, 128);
+	  padding-top: 90px;
+	  padding-left: 140px;
+	  font-size: 10px;
+	  font-family: 'century gothic';
+  }
+  
+  
+  .shift a{
+	 text-decoration: none;
+	 color: white;
+	 font-family: 'century gothic';
+  }
+  
+  .shift li{
+	display: inline-block;
+	margin-top: 100px;
+	padding: 10px 20px;
+  }
+  
+  .shift ul{
+	text-align: center;
+	margin-right: 50px;
+  }
+  
+  .cat a{
+	 text-decoration: none;
+	 color: white;
+	 font-family: 'century gothic';
+  }
+  
+  .cat li{
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px 20px;
+  }
+  
+  .cat ul{
+	text-align: center;
+	margin-right: 50px;
+	font-size: 20px;
+  }
+  
+  .cat1 a{
+	 text-decoration: none;
+	 color: white;
+	 font-family: 'century gothic';
+  }
+  
+  .cat1 li{
+	display: inline-block;
+	padding: 10px 20px;
+	margin-bottom: 50px;
+  }
+  
+  .cat1 ul{
+	text-align: center;
+	padding-bottom:30px;
+	font-size: 20px;
+  }
